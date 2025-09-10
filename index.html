@@ -7,23 +7,65 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <h1>Welcome to ABC School</h1>
+    <div class="logo">ABC School</div>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">About Us</a>
-      <a href="#">Admissions</a>
-      <a href="#">Contact</a>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#admissions">Admissions</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
   </header>
-  <main>
-    <section>
-      <h2>About Our School</h2>
-      <p>ABC School is dedicated to excellence in education...</p>
-    </section>
-  </main>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Welcome to ABC School</h1>
+    <p>Shaping the future with excellence in education</p>
+    <a href="#admissions" class="btn">Apply Now</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      ABC School has been nurturing young minds since 1995. 
+      We are committed to providing world-class education with 
+      values, creativity, and innovation.
+    </p>
+  </section>
+
+  <!-- Admissions Section -->
+  <section id="admissions">
+    <h2>Admissions</h2>
+    <p>Admissions for 2025 are now open! Download the form and apply today.</p>
+    <a href="admission-form.pdf" class="btn">Download Form</a>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="images/classroom.jpg" alt="Classroom">
+      <img src="images/sports.jpg" alt="Sports">
+      <img src="images/cultural.jpg" alt="Cultural Event">
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@abcschool.com</p>
+    <p>Phone: +91-9876543210</p>
+    <p>Address: 123, Main Street, Your City</p>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 ABC School</p>
+    <p>&copy; 2025 ABC School. All rights reserved.</p>
   </footer>
 </body>
 </html>
